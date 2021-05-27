@@ -7,4 +7,15 @@ public class State : ScriptableObject
 {
     //      Scroll Text For each 10 lines it will start scrolling
    [TextArea(14,10)] [SerializeField] string storyText;
+   [SerializeField] State[] nextStates;
+
+    public string GetStateStory()
+    {
+        return storyText;
+    }
+
+    public State[] GetNextStates()
+    {
+        return nextStates;
+    }
 }

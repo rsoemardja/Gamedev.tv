@@ -490,7 +490,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7e44910f24c2f340a1e18cb60f45aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 0}
+  textComponent: {fileID: 1758601026}
+  startingState: {fileID: 11400000, guid: e7e68ea2b38538140b077022a0e5dd29, type: 2}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,15 +749,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'New This is My Text New This is My TextNew This is My TextNew This is
-    My TextNew This is My TextNew This is My TextNew This is My TextNew This is My
-    TextNew This is My TextNew This is My TextNew This is My TextNew This is My TextNew
-    This is My TextNew This is My TextNew This is My TextNew This is My TextNew This
-    is My TextNew This is My TextNew This is My TextNew This is My TextNew This is
-    My TextNew This is My TextNew This is My TextNew This is My TextNew This is My
-    TextNew This is My TextNew This is My TextNew This is My Text
-
-'
+  m_Text: 'Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder
+    Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder
+    Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder
+    Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder
+    Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder
+    Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder
+    Text '
 --- !u!222 &1758601027
 CanvasRenderer:
   m_ObjectHideFlags: 0
